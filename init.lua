@@ -5,5 +5,5 @@ vim.cmd("colorscheme jellybeans")
 vim.opt.virtualedit = "all"
 
 vim.api.nvim_create_user_command("Q", function()
-  vim.cmd("qa!")
+    vim.cmd("qa!")
 end, {})

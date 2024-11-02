@@ -9,10 +9,11 @@
 --
 -- 找到 call s:Message('Jumping to [' . coords[0] . ', ' . coords[1] . ']') 直接註解掉
 --
+
 return {
-  "easymotion/vim-easymotion",
-  config = function()
-    vim.api.nvim_set_keymap("n", "/", "<Plug>(easymotion-sn)", {})
-    vim.api.nvim_set_keymap("o", "/", "<Plug>(easymotion-tn)", {})
-  end,
+    "easymotion/vim-easymotion",
+    config = function()
+        vim.api.nvim_set_keymap("n", "/", "<Plug>(easymotion-sn)", {})
+        vim.api.nvim_set_keymap("o", "/", "<Plug>(easymotion-tn)", {})
+    end,
 }
